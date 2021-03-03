@@ -9,6 +9,10 @@ The torrent is then downloaded and put in ./torrents folder (can be changed in c
 
 Additionaly, if multiple trackers are specified, when a torrent is found on one tracker but not another, his torrent id is put into a file (.logs/FoundOn...ButNotOn...) so you can use a tool (for example [RedCurry](https://gitlab.com/_mclovin/redcurry)) to upload it on other trackers :)
 
+# Requierements
+
+`mediainfo` must be in the path
+
 # Usage
 
 ```
@@ -19,7 +23,7 @@ python main.py
 
 # Configuration
 
-Please use ./config.cfg.example as a reference. The config file name must be ./config.cfg in order to work
+Please use [config.cfg.example](https://github.com/Erinshea/MusicScrapper/blob/master/config.cfg.example) as a reference. The config file name must be ./config.cfg in order to work
 
 ## Settings
 That section is mandatory. The name of the section **MUST** be Settings
