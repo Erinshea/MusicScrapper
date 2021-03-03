@@ -1,0 +1,6 @@
+torrents
+logs
+__pycache__
+
+config.cfg
+launch.json

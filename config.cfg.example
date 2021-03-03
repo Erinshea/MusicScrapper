@@ -1,0 +1,15 @@
+[Settings]
+MusicDirectory = /mnt/Plex/RED
+LogsDirectory = ./logs # Optionnal
+
+[OPS]
+Name = Orpheus # Optional
+URL = https://orpheus.network
+Username = <username>
+Password = <password>
+ApiToken = <api_token>
+TorrentDirectory = ./torrents/OPS # Optionnal
+NumberOfRequests = 5 # Optional 
+PerXSeconds = 10 # Optional
+IgnoreAlreadyFound = True # Default True
+IgnoreAlreadyNotFound = True # Default True
