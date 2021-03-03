@@ -1,22 +1,4 @@
-""" Objectifs :
-    • Scrape chaque dossier ✔️
-        • Si le dossier ne contient aucun flac ✔️
-            • Parse les dossiers sous jacents à la recherche d'un flac ✔️
-                • Si aucun FLAC, dossier suivant ✔️
-                • Si un FLAC est trouvé, parse le flac ✔️
-    • On extrait la taille du dossier ✔️
-    • Scrape des metadatas du flac trouvé ✔️
-        • On sauvegarde toutes les metadatas intéressantes (Author, Album) ✔️
-        • On cherche si le torrent le nom de l'album existe sur le tracker ✔️
-            • S'il existe, on vérifie la taille, ✔️
-                • Si elle est identique, on le télécharge ✔️
-            • S'il n'existe pas, on cherche les albums de l'artiste ✔️
-                • Si on trouve l'album grâce à sa taille parmis les albums de l'artiste, on le télécharge ✔️
-                • Sinon on stop le process pour cet album et on le dans la liste des albums non trouvés ✔️
-    • Télécharger le fichier et le mettre dans un dossier avec tous les torrents
-    • Nom dans l'album dans le fichier avec la liste de tous les torrents déjà téléchargés  
-"""
-
+#!/usr/bin/env python3
 import log
 import configparser
 import whatapi
